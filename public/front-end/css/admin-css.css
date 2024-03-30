@@ -1,0 +1,38 @@
+.btn {
+    cursor: pointer;
+}
+.btn:hover {
+    background: #76b6eb;
+}
+.admin-content-right label {
+    background: #1c1717;
+    color: antiquewhite;
+    text-align: center;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+.admin-content-right label:hover {
+    background: #d4e8f8;
+    color: black;
+    border: 1px solid black;
+}
+.admin-content-left {
+    max-height: 700px;
+    overflow: scroll;
+}
+.admin-content-image input {
+    display: none;
+}
+.admin-content-images input {
+    display: none;
+}
+.img-show,
+.imgs-show {
+    min-height: 150px;
+}
+.input-group-text {
+    border: none;
+}
+.specs{
+    margin-bottom: 30px;
+}
