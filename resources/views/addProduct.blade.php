@@ -1,7 +1,6 @@
 @extends('app')
 @section('content')
-<!-- đường dẫn ckEditor -->
-<link rel="stylesheet" href="{{ asset('ckEditor5/style.css') }}">
+
 
 <!-- Begin Page Content -->
 <div class="container-fluid">
