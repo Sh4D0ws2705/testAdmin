@@ -33,6 +33,42 @@
 .input-group-text {
     border: none;
 }
-.specs{
+.specs {
     margin-bottom: 30px;
+}
+tr th {
+    color: white;
+    text-align: center;
+}
+/* mếu dữ liệu vượt qua cái max height thì thêm scroll */
+.table-responsive {
+    max-height: 500px;
+    overflow: scroll;
+}
+/* Áp dụng cho tất cả thẻ td trong bảng có id là 'dataTable' */
+#dataTable td {
+    text-align: center; /* Căn giữa nội dung theo chiều ngang */
+    vertical-align: middle; /* Căn giữa nội dung theo chiều dọc */
+    padding: 10px; /* Thêm padding vào tất cả bốn phía của nội dung trong td */
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+#dataTable .action-link {
+    display: inline-block; /* Làm cho các liên kết dạng khối để áp dụng padding */
+    padding: 5px 10px; /* Thêm padding */
+    margin: 2px; /* Thêm một chút không gian giữa các liên kết */
+    text-align: center; /* Căn giữa text */
+    color: white; /* Màu chữ trắng */
+    border-radius: 5px; /* Bo góc cho hình chữ nhật */
+    text-decoration: none; /* Bỏ gạch chân của liên kết */
+}
+.edit-link {
+    background: #007bff;
+}
+.del-link {
+    background: red;
+}
+.product-code {
+    width: 5%;
 }
