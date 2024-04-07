@@ -6,7 +6,7 @@
 <div class="container-fluid">
     <!-- Page Heading -->
     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-        <h1 class="h3 mb-0 text-gray-800">Thêm Sản Phẩm</h1>
+        <h1 class="h3 mb-0 text-gray-800">Sửa Sản Phẩm</h1>
     </div>
     <!-- Begin Add Product -->
     <div class="input-group main-content">
@@ -48,7 +48,7 @@
                 <textarea name="specs" {{ old('specs') }} id="" class="editor1 form-control" cols="25" rows="20" placeholder="Thông Số Kĩ Thuật"></textarea>
             </div>
             <textarea name="decs" {{ old('decs') }} id="" class="editor2 form-control" cols="25" rows="20" placeholder="Mô tả"></textarea>
-            <button class="btn btn-primary mt-4" type="button">Thêm Sản Phẩm</button>
+            <button class="btn btn-primary mt-4" type="button">Sửa Sản Phẩm</button>
         </div>
         <!-- Begin add img -->
         <div class="admin-content-right col-lg-3">

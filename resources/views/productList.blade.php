@@ -9,7 +9,7 @@
 <div class="container-fluid">
     <!-- Page Heading -->
     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-        <h1 class="h3 mb-0 text-gray-800">Product List</h1>
+        <h1 class="h3 mb-0 text-gray-800">Danh Sách Sản Phẩm</h1>
     </div>
     <!-- Table product -->
     <div class="card shadow mb-4">
@@ -53,7 +53,8 @@
                             <td>27/05/2024</td>
                             <td>Còn Hàng</td>
                             <td>
-                                <a class="action-link edit-link" href="">Sửa</a>
+                                <!-- dẫn đường dẫn tới trang sửa sp -->
+                                <a class="action-link edit-link" href="{{ route('show.page' ,['page' => 'updateProduct']) }}">Sửa</a>
                                 <a class="action-link del-link" href="">Xóa</a>
                             </td>
                         </tr>
@@ -67,7 +68,7 @@
                             <td>27/05/2024</td>
                             <td>Còn Hàng</td>
                             <td>
-                                <a class="action-link edit-link" href="">Sửa</a>
+                                <a class="action-link edit-link" href="{{ route('show.page' ,['page' => 'updateProduct']) }}">Sửa</a>
                                 <a class="action-link del-link" href="">Xóa</a>
                             </td>
                         </tr>
