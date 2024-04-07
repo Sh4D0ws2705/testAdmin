@@ -10,18 +10,15 @@
     <!-- Page Heading -->
     <div class="d-sm-flex align-items-center justify-content-between mb-4">
         <h1 class="h3 mb-0 text-gray-800">Product List</h1>
-        <h1>Heloo</h1>
     </div>
-    <!--  -->
+    <!-- Table product -->
     <div class="card shadow mb-4">
-        <div class="card-header py-3">
-        </div>
         <div class="card-body">
             <div class="table-responsive">
                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                     <thead class="bg-primary">
                         <tr>
-                            <th class="product-code">ID</th>
+                            <th>ID</th>
                             <th>Ảnh</th>
                             <th>Tên Sản Phẩm</th>
                             <th>Giá Bán</th>
@@ -33,8 +30,8 @@
                         </tr>
                     </thead>
                     <tfoot class="bg-primary">
-                        <tr>
-                            <th class="product-code">ID</th>
+                    <tr>
+                            <th>ID</th>
                             <th>Ảnh</th>
                             <th>Tên Sản Phẩm</th>
                             <th>Giá Bán</th>
@@ -48,7 +45,7 @@
                     <tbody>
                         <tr>
                             <td>1</td>
-                            <td><img style="width: 70px;" src="{{ asset('front-end/img/ip14.jpg') }}" alt=""></td>
+                            <td><img src="{{ asset('front-end/img/ip14.jpg') }}" alt=""></td>
                             <td>Edinburgh</td>
                             <td>61</td>
                             <td>60</td>
@@ -62,7 +59,7 @@
                         </tr>
                         <tr>
                             <td>1</td>
-                            <td><img style="width: 70px;" src="{{ asset('front-end/img/ip14.jpg') }}" alt=""></td>
+                            <td><img src="{{ asset('front-end/img/ip14.jpg') }}" alt=""></td>
                             <td>Edinburgh</td>
                             <td>61</td>
                             <td>60</td>
